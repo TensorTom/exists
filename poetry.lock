@@ -1,0 +1,116 @@
+[[package]]
+name = "datafunc"
+version = "0.0.4"
+description = "Python functions for various dict, list, and other data structures."
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0"
+
+[package.dependencies]
+dotty-dict = "*"
+mo-dots = "*"
+traversy = ">=0.1.2"
+
+[[package]]
+name = "dotty-dict"
+version = "1.3.0"
+description = "Dictionary wrapper for quick access to deeply nested keys."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+setuptools_scm = "*"
+
+[[package]]
+name = "mo-dots"
+version = "4.2.20340"
+description = "More Dots! Dot-access to Python dicts like Javascript"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+mo-future = "3.147.20327"
+mo-imports = "3.149.20327"
+
+[[package]]
+name = "mo-future"
+version = "3.147.20327"
+description = "More future! Make Python 2/3 compatibility a bit easier"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "mo-imports"
+version = "3.149.20327"
+description = "More Imports! - Delayed importing"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+mo-future = "3.147.20327"
+
+[[package]]
+name = "setuptools-scm"
+version = "5.0.1"
+description = "the blessed package to manage your versions by scm tags"
+category = "main"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
+
+[package.extras]
+toml = ["toml"]
+
+[package.dependencies]
+setuptools = "*"
+
+[[package]]
+name = "traversy"
+version = "0.1.32"
+description = "Fast data traversal & manipulation tools."
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0.0"
+
+[package.dependencies]
+dotty-dict = ">=1.3.0"
+mo-dots = ">=3.135.20303"
+
+[metadata]
+python-versions = ">=3.6,<4.0"
+content-hash = "edde98a0d4e6ea28b2374a092a29a94c2fbd74ba543d652f03b196edaa79a3b5"
+
+[metadata.files]
+datafunc = [
+    {file = "datafunc-0.0.4-py3-none-any.whl", hash = "sha256:f48a2c2849e380d5c1c0ad3004eb7096f998fefe81e3565cfe7356bc618dfbaf"},
+    {file = "datafunc-0.0.4.tar.gz", hash = "sha256:8fee6985e92105cdb4fce5bbb276b8daac4c6ba55010859431f0c107c629379d"},
+]
+dotty-dict = [
+    {file = "dotty_dict-1.3.0.tar.gz", hash = "sha256:eb0035a3629ecd84397a68f1f42f1e94abd1c34577a19cd3eacad331ee7cbaf0"},
+]
+mo-dots = [
+    {file = "mo-dots-4.2.20340.tar.gz", hash = "sha256:938b3fcfb40dd0c258391b64694ab672d4568f4113cf1378db5b9dc611af401d"},
+]
+mo-future = [
+    {file = "mo-future-3.147.20327.tar.gz", hash = "sha256:4aafcf859e4657bc11b04ee9791321e2d44702604ae01cac7c412468cb6a513f"},
+]
+mo-imports = [
+    {file = "mo-imports-3.149.20327.tar.gz", hash = "sha256:32e3dc720c84765224d29ed7e9d6972a369d41d756e6f26ddb5b7aa01241331d"},
+]
+setuptools-scm = [
+    {file = "setuptools_scm-5.0.1-py2.7.egg", hash = "sha256:db4ab2e0c2644ba71b1e5212b14ff65dbf0af465796d314a75e0cf6128f605f7"},
+    {file = "setuptools_scm-5.0.1-py2.py3-none-any.whl", hash = "sha256:62fa535edb31ece9fa65dc9dcb3056145b8020c8c26c0ef1018aef33db95c40d"},
+    {file = "setuptools_scm-5.0.1-py3.5.egg", hash = "sha256:1fc4e25df445351d172bb4788f4d07f9e9ce0e8b7dee6b19584e46110172ca13"},
+    {file = "setuptools_scm-5.0.1-py3.6.egg", hash = "sha256:e878036c2527dfd05818727846338be86b2be6955741b85fab2625f63d001021"},
+    {file = "setuptools_scm-5.0.1-py3.7.egg", hash = "sha256:eb19b46816fc106a4c2d4180022687eab40f9773cf61390b845afb093d1f4ecd"},
+    {file = "setuptools_scm-5.0.1-py3.8.egg", hash = "sha256:48b31488d089270500f120efea723968c01abd85fd4876043a3b7c7ef7d0b761"},
+    {file = "setuptools_scm-5.0.1-py3.9.egg", hash = "sha256:b928021c4381f96d577847d540d6e03065f8f8851c768a0c9bc552d463bae0d4"},
+    {file = "setuptools_scm-5.0.1.tar.gz", hash = "sha256:c85b6b46d0edd40d2301038cdea96bb6adc14d62ef943e75afb08b3e7bcf142a"},
+]
+traversy = [
+    {file = "traversy-0.1.32-py3-none-any.whl", hash = "sha256:fbbfd5a04f744df8810753990d8bbe9e58f5ddd679b82b5e851de35fbec0b4b8"},
+    {file = "traversy-0.1.32.tar.gz", hash = "sha256:4ad9c4ae8933a0ac86d40a7ac4b64012f2f7a26af199bafee588a1b79549c9a9"},
+]
