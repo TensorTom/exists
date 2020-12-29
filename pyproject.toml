@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 name = "exists"
-version = "0.1.0"
+version = "0.0.1a"
 description = "Check if a variable or other object exists."
 authors = ["Tom A. <14287229+TensorTom@users.noreply.github.com>"]
 homepage = "https://github.com/TensorTom/exists"
