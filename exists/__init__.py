@@ -2,7 +2,7 @@ from typing import AnyStr, Optional, Union, Literal
 from datafunc import listlike
 
 
-def exists(var: Union[AnyStr], scope: Optional[str] = 'all') -> bool:
+def exists(var: Union[AnyStr], scope: Optional[str] = 'any') -> bool:
 	"""
 	Check for existence of a variable by name.
 	:param var: The string representation/name of the variable (Required).
